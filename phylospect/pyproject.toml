@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "phylospect"
+version = "1.0.0"
+description = "Likelihood-free operator-based detection of episodic positive selection"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "pandas>=2.0",
+]
+keywords = [
+    "phylogenetics",
+    "positive selection",
+    "codon evolution",
+    "molecular evolution",
+    "likelihood-free",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+]
+
+[project.urls]
+Repository = "https://github.com/[your-username]/phylospect"
+Paper = "[DOI to be added at acceptance]"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["phylospect*"]

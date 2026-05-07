@@ -1,0 +1,10 @@
+# Clade specification for lysozyme.
+# Format: clade_name: leaf1, leaf2, leaf3, ...
+# Each line defines an internal branch to test (the branch leading to the
+# MRCA of the listed leaves). Use ORIGINAL or sanitised names; the script
+# accepts both.
+
+colobines: langur_Sen_Sve, langur_Tob_Tfr, Douc_langur_Pne, probiscis_Nla, colobus_Cgu_Can
+hominoids: human, chimp_bonobo_gorilla, orangutan_Ppy, gibbon_Ggo
+cercopithecines: baboon_Pcy, mangabey_Cat, rhesus_Mmu, Allen_Ani, talapoin_Mta, patas_Epa, vervet_Cae
+new_world_monkeys: squirrel_m, tamarin_Soe, Marmoset_Cja

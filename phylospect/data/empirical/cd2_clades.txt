@@ -1,0 +1,21 @@
+# Clade specification for CD2 dataset.
+# Confirmed leaf names: Human, Chimp, Baboon, RhMonkey, Cow, Pig, Horse, Cat, Mouse, Rat
+#
+# CD2 is a T-cell surface glycoprotein with documented positive selection
+# in the primate lineage (Messier & Stewart 1997, Yang 1998).
+# Expected: primate clade shows selection signal; non-primate clades n.s.
+
+# All primates — the canonical positive selection target for CD2
+primates: Human, Chimp, Baboon, RhMonkey
+
+# Apes only (human + chimp)
+apes: Human, Chimp
+
+# Old World monkeys
+old_world_monkeys: Baboon, RhMonkey
+
+# Rodents
+rodents: Mouse, Rat
+
+# Ungulates
+ungulates: Cow, Pig, Horse
