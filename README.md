@@ -32,7 +32,7 @@ confirmatory tests such as PAML branch-site Model A.
 ## Installation
 
 ```bash
-git clone https://github.com/[your-username]/phylospect.git
+git clone https://github.com/iammanjunath59-bit/phylospect.git
 cd phylospect
 pip install -e .
 ```
